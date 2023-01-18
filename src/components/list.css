@@ -1,0 +1,36 @@
+.list {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.Outlet {
+  width: 60%;
+}
+.inbox {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.singleMailList {
+  margin: 0.5rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+a:hover {
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+.seen {
+  background-color: rgb(57, 59, 58);
+  color: aliceblue;
+}
+.date {
+  display: flex;
+  justify-content: space-between;
+}

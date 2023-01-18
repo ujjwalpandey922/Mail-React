@@ -1,0 +1,20 @@
+.singlemail {
+  background-color: rgb(236, 227, 227);
+  border: 1px solid rgb(2, 6, 48);
+  padding: 1rem;
+  margin: 0.5rem 0;
+}
+.avatar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatar img {
+  border-radius: 100px;
+  width: 60px;
+  display: inline-block;
+}
+.avatar svg {
+  font-size: 25px;
+  cursor: pointer;
+}

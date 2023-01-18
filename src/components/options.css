@@ -1,0 +1,25 @@
+.options {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+
+  background-color: rgba(51, 51, 51, 0.34);
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.options ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.options ul a {
+  text-decoration: none;
+  color: inherit;
+  background-color: rgb(11, 161, 103);
+  padding: 1rem;
+  border-radius: 5px;
+}
+.options ul a:focus {
+  color: aqua;
+}

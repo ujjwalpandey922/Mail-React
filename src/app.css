@@ -1,0 +1,6 @@
+.HomeContainer {
+  display: flex;
+}
+.view {
+  flex: 7;
+}
